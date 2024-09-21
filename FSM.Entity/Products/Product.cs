@@ -13,6 +13,7 @@ namespace FS.Entity.Products
         public Product()
         {
             ProductOrders = new HashSet<ProductOrder>();
+            UploadedFiles = new HashSet<UploadedFile>();
         }
         public string ProductName { get; set; } = string.Empty;
 
@@ -22,5 +23,6 @@ namespace FS.Entity.Products
         public int CategoryId { get; set; }
         public Category Category { get; set; }
         public ICollection<ProductOrder> ProductOrders { get; set; }
+        public ICollection<UploadedFile> UploadedFiles { get; set; }
     }
 }
