@@ -22,8 +22,7 @@ namespace FS.DataAccessLayer.EntityFrameworkCore.Configurations.Accounts
 
 
             builder.HasData([
-                new Role { Id = 1, Value = "Admin", CreatedId = 1, CreatedDate = DateTime.UtcNow, UpdatedId = 1, UpdatedDate = DateTime.UtcNow },
-                new Role { Id = 1, Value = "User", CreatedId = 1, CreatedDate = DateTime.UtcNow, UpdatedId = 1, UpdatedDate = DateTime.UtcNow }
+                new Role { Id = 1, Value = "Admin", CreatedId = 1, CreatedDate = DateTime.UtcNow, UpdatedId = 1, UpdatedDate = DateTime.UtcNow }
                 ]);
 
         }

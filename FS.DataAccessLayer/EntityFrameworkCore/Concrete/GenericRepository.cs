@@ -9,7 +9,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FS.DataAccessLayer.EntityFrameworkCore.Concrete.Concrete
+namespace FS.DataAccessLayer.EntityFrameworkCore.Concrete
 {
     public class GenericRepository<T> : IGenericRepository<T> where T : BaseEntity
     {
@@ -57,6 +57,6 @@ namespace FS.DataAccessLayer.EntityFrameworkCore.Concrete.Concrete
             await _dbContext.SaveChangesAsync();
         }
 
-    
+
     }
 }
