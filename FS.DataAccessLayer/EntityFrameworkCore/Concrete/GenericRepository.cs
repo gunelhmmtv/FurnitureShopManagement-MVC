@@ -1,4 +1,4 @@
-﻿using FS.DataAccessLayer.EntityFrameworkCore.Abstract;
+﻿using FS.DataAccessLayer.Abstract;
 using FS.DataAccessLayer.EntityFrameworkCore.Contexts;
 using FS.Entity.Commons;
 using Microsoft.EntityFrameworkCore;

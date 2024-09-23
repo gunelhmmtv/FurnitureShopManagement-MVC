@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FS.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e65497fd670eb26baa67e17939895bcd40f55bd9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FS.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FS.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

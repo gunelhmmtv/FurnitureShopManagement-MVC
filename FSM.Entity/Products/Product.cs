@@ -15,7 +15,7 @@ namespace FS.Entity.Products
             ProductOrders = new HashSet<ProductOrder>();
             UploadedFiles = new HashSet<UploadedFile>();
         }
-        public string ProductName { get; set; } = string.Empty;
+        public string ProductName { get; set; }
 
         public double Price { get; set; }
 

@@ -6,4 +6,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FS.CoreLayer\FS.CoreLayer.csproj" />
+    <ProjectReference Include="..\FS.DataAccessLayer\FS.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\FSM.Entity\FS.Entity.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
 </Project>

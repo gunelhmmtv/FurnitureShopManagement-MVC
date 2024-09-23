@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FS.Entity.Commons;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,8 @@ using System.Threading.Tasks;
 
 namespace FS.Entity.Products
 {
-    public class ProductOrder
+    public class ProductOrder : BaseEntity
     {
-        public ProductOrder()
-        {
-            Product = new Product();
-            Order = new Order();
-        }
         public int ProductId { get; set; }
         public int OrderId { get; set; }
 

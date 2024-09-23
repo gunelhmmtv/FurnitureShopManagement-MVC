@@ -1,0 +1,16 @@
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin\Debug\net8.0\FS.BusinessLogicLayer.deps.json
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin\Debug\net8.0\FS.BusinessLogicLayer.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin\Debug\net8.0\FS.BusinessLogicLayer.pdb
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.sourcelink.json
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\refint\FS.BusinessLogicLayer.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.pdb
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\ref\FS.BusinessLogicLayer.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin\Debug\net8.0\FS.CoreLayer.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin\Debug\net8.0\FS.CoreLayer.pdb
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.csproj.CopyComplete

@@ -13,7 +13,7 @@ namespace FS.DataAccessLayer.EntityFrameworkCore.Configurations.Products
     {
         public void Configure(EntityTypeBuilder<ProductOrder> builder)
         {
-
+            builder.Ignore(x => x.Id);
             builder.HasKey(x => new { x.ProductId, x.OrderId });
 
         }
