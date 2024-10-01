@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
+using FluentValidation;
 using FS.BusinessLogicLayer.Abstract;
 using FS.BusinessLogicLayer.Dtos;
+using FS.CoreLayer.Enums;
 using FS.CoreLayer.Wrappers.Implementations;
 using FS.CoreLayer.Wrappers.Interfaces;
 using FS.DataAccessLayer.Abstract;
@@ -29,14 +31,14 @@ namespace FS.BusinessLogicLayer.Concrete
         {
             var product = _mapper.Map<Product>(productDto);
             await _productRepository.AddAsync(product);
-            return new ResponseResult(FS.CoreLayer.Enums.ResponseType.SuccessResult, "Product was added succesfully");
+            return new ResponseResult(ResponseType.SuccessResult, "Product was added succesfully");
         }
 
         public async Task<IResponseDataResult<IEnumerable<ProductViewDto>>> GetProductsAsync()
         {
-           var product= await _productRepository.GetAllAsync();
-           var productView = _mapper.Map<IEnumerable<ProductViewDto>>(product);
-           return new ResponseDataResult<IEnumerable<ProductViewDto>>(productView);
+            var product = await _productRepository.GetAllAsync();
+            var productView = _mapper.Map<IEnumerable<ProductViewDto>>(product);
+            return new ResponseDataResult<IEnumerable<ProductViewDto>>(productView);
 
         }
     }

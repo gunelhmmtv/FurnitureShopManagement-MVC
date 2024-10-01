@@ -13,6 +13,8 @@ namespace FS.CoreLayer.Wrappers.Interfaces
         string Message { get; set; }
         ResponseType ResponseType { get; set; }
 
-        ICollection<ResponseValidationResult> ResponseValidationResults { get; set; }
+        ICollection<ResponseValidationResult> ResponseValidationResults { get; }
+
+       
     }
 }

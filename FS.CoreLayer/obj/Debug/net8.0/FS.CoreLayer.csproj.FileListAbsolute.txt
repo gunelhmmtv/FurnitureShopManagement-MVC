@@ -10,3 +10,4 @@ C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.CoreLayer\obj\Debug\ne
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.CoreLayer\obj\Debug\net8.0\refint\FS.CoreLayer.dll
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.CoreLayer\obj\Debug\net8.0\FS.CoreLayer.pdb
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.CoreLayer\obj\Debug\net8.0\ref\FS.CoreLayer.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.CoreLayer\obj\Debug\net8.0\FS.CoreLayer.csproj.AssemblyReference.cache

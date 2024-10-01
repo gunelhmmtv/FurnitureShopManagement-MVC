@@ -14,3 +14,7 @@ C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin\Debug\net8.0\FS.CoreLayer.pdb
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.csproj.AssemblyReference.cache
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\obj\Debug\net8.0\FS.BusinessLogicLayer.csproj.CopyComplete
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin\Debug\net8.0\FS.DataAccessLayer.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin\Debug\net8.0\FS.Entity.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin\Debug\net8.0\FS.DataAccessLayer.pdb
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.BusinessLogicLayer\bin\Debug\net8.0\FS.Entity.pdb

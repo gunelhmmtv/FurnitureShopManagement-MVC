@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using FS.BusinessLogicLayer.Dtos;
+using FS.Entity.Accounts;
 using FS.Entity.Products;
 using System;
 using System.Collections.Generic;
@@ -17,6 +18,9 @@ namespace FS.BusinessLogicLayer.Mappers
             CreateMap<Product,ProductViewDto>();
             CreateMap<AddProductDto, Product>();
             CreateMap<Product,AddProductDto>();
+
+            CreateMap<CreateUserDto, User>();
+            CreateMap<CreateUserDto, UserDetail>();
         }
     }
 }

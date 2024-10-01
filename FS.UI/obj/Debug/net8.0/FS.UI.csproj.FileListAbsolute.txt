@@ -140,3 +140,9 @@ C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\ru
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FS.BusinessLogicLayer.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FS.CoreLayer.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FS.BusinessLogicLayer.pdb
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FS.CoreLayer.pdb
