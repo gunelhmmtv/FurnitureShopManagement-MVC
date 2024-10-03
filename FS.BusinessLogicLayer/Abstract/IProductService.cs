@@ -12,5 +12,7 @@ namespace FS.BusinessLogicLayer.Abstract
     {
         Task<IResponseDataResult<IEnumerable<ProductViewDto>>> GetProductsAsync();
         Task<IResponseResult> AddAsync(AddProductDto productDto);
+     
+
     }
 }

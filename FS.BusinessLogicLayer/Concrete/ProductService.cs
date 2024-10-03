@@ -41,5 +41,8 @@ namespace FS.BusinessLogicLayer.Concrete
             return new ResponseDataResult<IEnumerable<ProductViewDto>>(productView);
 
         }
+      
+
+       
     }
 }

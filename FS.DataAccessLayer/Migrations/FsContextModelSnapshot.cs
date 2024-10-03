@@ -83,9 +83,9 @@ namespace FS.DataAccessLayer.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 9, 23, 21, 16, 2, 195, DateTimeKind.Utc).AddTicks(5170),
+                            CreatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 200, DateTimeKind.Utc).AddTicks(9258),
                             CreatedId = 1,
-                            UpdatedDate = new DateTime(2024, 9, 23, 21, 16, 2, 195, DateTimeKind.Utc).AddTicks(5173),
+                            UpdatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 200, DateTimeKind.Utc).AddTicks(9260),
                             UpdatedId = 1,
                             Value = "Admin"
                         });
@@ -288,36 +288,36 @@ namespace FS.DataAccessLayer.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 9, 23, 21, 16, 2, 196, DateTimeKind.Utc).AddTicks(7692),
+                            CreatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9158),
                             CreatedId = 1,
-                            UpdatedDate = new DateTime(2024, 9, 23, 21, 16, 2, 196, DateTimeKind.Utc).AddTicks(7693),
+                            UpdatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9159),
                             UpdatedId = 1,
                             Value = "Kitchen"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 9, 23, 21, 16, 2, 196, DateTimeKind.Utc).AddTicks(7696),
+                            CreatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9161),
                             CreatedId = 1,
-                            UpdatedDate = new DateTime(2024, 9, 23, 21, 16, 2, 196, DateTimeKind.Utc).AddTicks(7697),
+                            UpdatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9162),
                             UpdatedId = 1,
                             Value = "Bedroom"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 9, 23, 21, 16, 2, 196, DateTimeKind.Utc).AddTicks(7698),
+                            CreatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9164),
                             CreatedId = 1,
-                            UpdatedDate = new DateTime(2024, 9, 23, 21, 16, 2, 196, DateTimeKind.Utc).AddTicks(7699),
+                            UpdatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9164),
                             UpdatedId = 1,
                             Value = "Guest room"
                         },
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2024, 9, 23, 21, 16, 2, 196, DateTimeKind.Utc).AddTicks(7700),
+                            CreatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9165),
                             CreatedId = 1,
-                            UpdatedDate = new DateTime(2024, 9, 23, 21, 16, 2, 196, DateTimeKind.Utc).AddTicks(7700),
+                            UpdatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9166),
                             UpdatedId = 1,
                             Value = "Bathroom"
                         });
