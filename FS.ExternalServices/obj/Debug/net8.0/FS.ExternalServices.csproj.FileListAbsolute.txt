@@ -1,0 +1,13 @@
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\bin\Debug\net8.0\FS.ExternalServices.deps.json
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\bin\Debug\net8.0\FS.ExternalServices.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\bin\Debug\net8.0\FS.ExternalServices.pdb
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.csproj.AssemblyReference.cache
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.AssemblyInfoInputs.cache
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.AssemblyInfo.cs
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.csproj.CoreCompileInputs.cache
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.sourcelink.json
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\refint\FS.ExternalServices.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.pdb
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\ref\FS.ExternalServices.dll

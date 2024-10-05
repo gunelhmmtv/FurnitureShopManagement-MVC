@@ -87,8 +87,8 @@
                         } else {
                             $("div.text-danger").text("");
                             $.each(response.errors, function (key, messages) {
-                                var field = $("[asp-for='" + key + "']");
-                                field.next(".text-danger").text(messages[0]);
+                                var field = $("[asp-validation-for='" + key + "']");
+                                field.text(messages[0]);
                             });
                         }
                     }

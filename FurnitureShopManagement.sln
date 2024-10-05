@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FS.BusinessLogicLayer", "FS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FS.UI", "FS.UI\FS.UI.csproj", "{61845086-31EE-4E34-91C4-2DF02B7C306B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FS.CoreLayer", "FS.CoreLayer\FS.CoreLayer.csproj", "{91BC711B-161C-4D41-AF23-2EF717BD08AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FS.CoreLayer", "FS.CoreLayer\FS.CoreLayer.csproj", "{91BC711B-161C-4D41-AF23-2EF717BD08AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FS.ExternalServices", "FS.ExternalServices\FS.ExternalServices.csproj", "{54D7450A-633A-4DE5-99D0-D0753DCE5758}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{91BC711B-161C-4D41-AF23-2EF717BD08AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91BC711B-161C-4D41-AF23-2EF717BD08AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91BC711B-161C-4D41-AF23-2EF717BD08AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D7450A-633A-4DE5-99D0-D0753DCE5758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D7450A-633A-4DE5-99D0-D0753DCE5758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D7450A-633A-4DE5-99D0-D0753DCE5758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D7450A-633A-4DE5-99D0-D0753DCE5758}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

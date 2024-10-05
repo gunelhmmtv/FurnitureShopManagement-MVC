@@ -684,7 +684,7 @@
           "buildTransitive/net6.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Options/8.0.0": {
+      "Microsoft.Extensions.Options/8.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
@@ -1585,6 +1585,19 @@
         },
         "runtime": {
           "bin/placeholder/FS.Entity.dll": {}
+        }
+      },
+      "FS.ExternalServices/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/FS.ExternalServices.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FS.ExternalServices.dll": {}
         }
       }
     }
@@ -2694,10 +2707,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Options/8.0.0": {
-      "sha512": "JOVOfqpnqlVLUzINQ2fox8evY2SKLYJ3BV8QDe/Jyp21u1T7r45x/R/5QdteURMR5r01GxeJSBBUOCOyaNXA3g==",
+    "Microsoft.Extensions.Options/8.0.2": {
+      "sha512": "dWGKvhFybsaZpGmzkGCbNNwBD1rVlWzrZKANLW/CcbFJpCEceMCGzT7zZwHOGBCbwM0SzBuceMj5HN1LKV1QqA==",
       "type": "package",
-      "path": "microsoft.extensions.options/8.0.0",
+      "path": "microsoft.extensions.options/8.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2736,7 +2749,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.8.0.0.nupkg.sha512",
+        "microsoft.extensions.options.8.0.2.nupkg.sha512",
         "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -4240,12 +4253,18 @@
       "type": "project",
       "path": "../FSM.Entity/FS.Entity.csproj",
       "msbuildProject": "../FSM.Entity/FS.Entity.csproj"
+    },
+    "FS.ExternalServices/1.0.0": {
+      "type": "project",
+      "path": "../FS.ExternalServices/FS.ExternalServices.csproj",
+      "msbuildProject": "../FS.ExternalServices/FS.ExternalServices.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "FS.BusinessLogicLayer >= 1.0.0",
       "FS.DataAccessLayer >= 1.0.0",
+      "FS.ExternalServices >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.8",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.8",
@@ -4284,6 +4303,9 @@
             },
             "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj": {
               "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj"
+            },
+            "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj": {
+              "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj"
             }
           }
         }

@@ -146,3 +146,6 @@ C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FS
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FS.CoreLayer.dll
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FS.BusinessLogicLayer.pdb
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FS.CoreLayer.pdb
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FS.ExternalServices.dll
+C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.UI\bin\Debug\net8.0\FS.ExternalServices.pdb

@@ -22,6 +22,7 @@
   <ItemGroup>
     <ProjectReference Include="..\FS.BusinessLogicLayer\FS.BusinessLogicLayer.csproj" />
     <ProjectReference Include="..\FS.DataAccessLayer\FS.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\FS.ExternalServices\FS.ExternalServices.csproj" />
   </ItemGroup>
 
 </Project>

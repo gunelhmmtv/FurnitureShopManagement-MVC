@@ -81,8 +81,16 @@ namespace FS.BusinessLogicLayer.Concrete
                    new() { RoleId = 1 }
                ];
             await _userRepository.AddAsync(userEntity);
-            await _userRepository.SaveChangesAsync();
+            try
+            {
+                await _userRepository.SaveChangesAsync();
 
+            }
+            catch (Exception E)
+            {
+                var EM = E;
+                                
+            }
             return new ResponseDataResult<RegisterUserDto>( new RegisterUserDto()
             {
                 Id = userEntity.Id,

@@ -1,5 +1,7 @@
 ﻿using FS.BusinessLogicLayer.Abstract;
 using FS.BusinessLogicLayer.Dtos;
+using FS.CoreLayer.Helpers;
+using FS.ExternalServices.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FS.UI.Controllers
@@ -8,10 +10,12 @@ namespace FS.UI.Controllers
     {
 
         private readonly IUserService _userService;
+        private readonly IEmailService _emailService;
 
-        public AccountController(IUserService userService)
+        public AccountController(IUserService userService,IEmailService emailService)
         {
             _userService = userService;
+            _emailService = emailService;
         }
 
         [HttpGet]
@@ -41,9 +45,19 @@ namespace FS.UI.Controllers
 
                 return Json(new { success = false, errors });
             }
-            return View();
+            string url = $"http://localhost:5226/account/ConfirmEmail?code={result.Data.ConfirmCode}&userId={result.Data.Id}";
+            var htmlMessage = HtmlTemplateGenerator.ConfirmMessage("Click button for complete email verification", url);
+            await _emailService.SendEmailAsync(result.Data.Email, "ConfirmationCode", htmlMessage);
+            return Json(new { success = true, message = "Registration successful! Please check your email to confirm." });
         }
 
+        [HttpGet]
+
+        public async Task<IActionResult> ConfirmEmail(int code, int userId)
+        {
+            return Json("Hey");
+
+        }
     }
 
 }

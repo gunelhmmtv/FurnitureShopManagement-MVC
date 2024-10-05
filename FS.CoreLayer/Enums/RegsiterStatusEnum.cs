@@ -8,8 +8,8 @@ namespace FS.CoreLayer.Enums
 {
     public enum RegisterStatusEnum
     {
-        RegisterUser = 1,
-        ConfirmedUser = 2,
-        BlockedUser = 3,
+        RegisterUser = 4,
+        ConfirmedUser = 6,
+        BlockedUser = 7,
     }
 }

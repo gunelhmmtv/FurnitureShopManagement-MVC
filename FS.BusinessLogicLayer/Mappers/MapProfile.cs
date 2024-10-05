@@ -17,9 +17,6 @@ namespace FS.BusinessLogicLayer.Mappers
             CreateMap<ProductViewDto, Product>();
             CreateMap<Product,ProductViewDto>();
             CreateMap<AddProductDto, Product>();
-            CreateMap<Product,AddProductDto>();
-            CreateMap<UpdateProductDto, Product>();
-            CreateMap<Product,UpdateProductDto>();
 
             CreateMap<CreateUserDto, User>();
             CreateMap<CreateUserDto, UserDetail>();

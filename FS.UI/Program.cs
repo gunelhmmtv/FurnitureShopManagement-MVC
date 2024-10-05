@@ -7,6 +7,9 @@ using FS.BusinessLogicLayer.ValidationRules;
 using FS.DataAccessLayer.Abstract;
 using FS.DataAccessLayer.EntityFrameworkCore.Concrete;
 using FS.DataAccessLayer.EntityFrameworkCore.Contexts;
+using FS.ExternalServices.Interfaces;
+using FS.ExternalServices.Models;
+using FS.ExternalServices.Services;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +19,11 @@ builder.Services.AddControllersWithViews();
 string connectionString = builder.Configuration.GetConnectionString("local")!;
 builder.Services
     .AddDbContext<FsContext>(options => options.UseSqlServer(connectionString));
+
+var emailConfigurations = builder.Configuration.GetSection("SmtpSetting");
+builder.Services.Configure<SmtpSetting>(emailConfigurations);
+
+builder.Services.AddTransient<IEmailService, EmailService>();
 
 builder.Services.AddAutoMapper(typeof(IBusinessRegister));
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SKCNdpSemNUF8ZU6FVUWvfEkPhy2M8VhI0UXeP4JZlrJ4XNwH3aDLK+L631GgWHDzAGJ1DQ8kNV0cXVDiplx4w==",
+  "dgSpecHash": "zopoP+D1sXvbAMyeiqxaA5uEZG5UwCm6y2CqwSPIhWUYTjCcbDTyxfsc9wVyZ6UTg261oa4KYiihIphYSTMK7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.UI\\FS.UI.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,7 @@
     "C:\\Users\\gunel\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.1\\microsoft.extensions.dependencymodel.8.0.1.nupkg.sha512",
     "C:\\Users\\gunel\\.nuget\\packages\\microsoft.extensions.logging\\8.0.0\\microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "C:\\Users\\gunel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
-    "C:\\Users\\gunel\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\gunel\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\gunel\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\gunel\\.nuget\\packages\\microsoft.identity.client\\4.56.0\\microsoft.identity.client.4.56.0.nupkg.sha512",
     "C:\\Users\\gunel\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.56.0\\microsoft.identity.client.extensions.msal.4.56.0.nupkg.sha512",
