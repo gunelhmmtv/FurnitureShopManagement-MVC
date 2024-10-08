@@ -57,6 +57,9 @@ namespace FS.DataAccessLayer.EntityFrameworkCore.Concrete
             await _dbContext.SaveChangesAsync();
         }
 
-
+        public async Task<IDictionary<TKey, TElement>> GetDictionaryAsync<TKey, TElement>(Func<T, TKey> keySelector, Func<T, TElement> valueSelector)
+        {
+            return await TableEntity.ToDictionaryAsync(keySelector, valueSelector);
+        }
     }
 }

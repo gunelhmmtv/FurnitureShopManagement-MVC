@@ -1,4 +1,7 @@
 ﻿using FS.Entity.Commons;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,6 +20,7 @@ namespace FS.DataAccessLayer.Abstract
         Task SaveChangesAsync();
         bool Update(T entity);
         bool Remove(T entity);
+        Task<IDictionary<TKey, TElement>> GetDictionaryAsync<TKey, TElement>(Func<T, TKey> keySelector, Func<T, TElement> valueSelector);
 
 
     }
