@@ -11,5 +11,7 @@ namespace FS.BusinessLogicLayer.Dtos
         public int Id { get; set; }
         public string ProductName { get; set; }
         public double Price { get; set; }
+        public bool InStock { get; set; }
+        public int CategoryId { get; set; }
     }
 }

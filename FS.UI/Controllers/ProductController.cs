@@ -76,7 +76,7 @@ namespace FS.UI.Controllers
                 }
             }
 
-            return RedirectToAction("Index", "Products");
+            return Json(new { success = true }) ;
         }
     }
 }

@@ -1,6 +1,8 @@
 ﻿using AutoMapper;
 using FS.BusinessLogicLayer.Dtos;
+using FS.BusinessLogicLayer.ValidationRules;
 using FS.Entity.Accounts;
+using FS.Entity.Commons;
 using FS.Entity.Products;
 using System;
 using System.Collections.Generic;
@@ -14,12 +16,12 @@ namespace FS.BusinessLogicLayer.Mappers
     {
         public MapProfile() 
         {
-            CreateMap<ProductViewDto, Product>();
             CreateMap<Product,ProductViewDto>();
             CreateMap<AddProductDto, Product>();
 
             CreateMap<CreateUserDto, User>();
             CreateMap<CreateUserDto, UserDetail>();
+            CreateMap<UploadedFileDto, UploadedFile>();
         }
     }
 }
