@@ -28,7 +28,9 @@ namespace FS.DataAccessLayer.EntityFrameworkCore.Configurations.Products
                 .HasForeignKey(x => x.ProductId);
             builder.HasMany(x => x.UploadedFiles)
                 .WithOne()
-                .HasForeignKey(x => x.ProductId);
+                .HasForeignKey(x => x.ProductId)
+                .OnDelete(DeleteBehavior.Cascade);
+
 
 
         }

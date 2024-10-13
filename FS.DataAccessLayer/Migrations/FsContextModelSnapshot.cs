@@ -83,9 +83,9 @@ namespace FS.DataAccessLayer.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 200, DateTimeKind.Utc).AddTicks(9258),
+                            CreatedDate = new DateTime(2024, 10, 13, 14, 34, 52, 914, DateTimeKind.Utc).AddTicks(1918),
                             CreatedId = 1,
-                            UpdatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 200, DateTimeKind.Utc).AddTicks(9260),
+                            UpdatedDate = new DateTime(2024, 10, 13, 14, 34, 52, 914, DateTimeKind.Utc).AddTicks(1920),
                             UpdatedId = 1,
                             Value = "Admin"
                         });
@@ -207,8 +207,8 @@ namespace FS.DataAccessLayer.Migrations
 
                     b.Property<string>("ContentType")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
 
                     b.Property<DateTime>("CreatedDate")
                         .HasColumnType("datetime2")
@@ -220,16 +220,16 @@ namespace FS.DataAccessLayer.Migrations
 
                     b.Property<string>("FileName")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
 
                     b.Property<int?>("ProductId")
                         .HasColumnType("int");
 
                     b.Property<string>("RelativePath")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
 
                     b.Property<DateTime?>("UpdatedDate")
                         .HasColumnType("datetime2")
@@ -288,36 +288,36 @@ namespace FS.DataAccessLayer.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9158),
+                            CreatedDate = new DateTime(2024, 10, 13, 14, 34, 52, 915, DateTimeKind.Utc).AddTicks(8256),
                             CreatedId = 1,
-                            UpdatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9159),
+                            UpdatedDate = new DateTime(2024, 10, 13, 14, 34, 52, 915, DateTimeKind.Utc).AddTicks(8259),
                             UpdatedId = 1,
                             Value = "Kitchen"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9161),
+                            CreatedDate = new DateTime(2024, 10, 13, 14, 34, 52, 915, DateTimeKind.Utc).AddTicks(8263),
                             CreatedId = 1,
-                            UpdatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9162),
+                            UpdatedDate = new DateTime(2024, 10, 13, 14, 34, 52, 915, DateTimeKind.Utc).AddTicks(8264),
                             UpdatedId = 1,
                             Value = "Bedroom"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9164),
+                            CreatedDate = new DateTime(2024, 10, 13, 14, 34, 52, 915, DateTimeKind.Utc).AddTicks(8266),
                             CreatedId = 1,
-                            UpdatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9164),
+                            UpdatedDate = new DateTime(2024, 10, 13, 14, 34, 52, 915, DateTimeKind.Utc).AddTicks(8267),
                             UpdatedId = 1,
                             Value = "Guest room"
                         },
                         new
                         {
                             Id = 4,
-                            CreatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9165),
+                            CreatedDate = new DateTime(2024, 10, 13, 14, 34, 52, 915, DateTimeKind.Utc).AddTicks(8268),
                             CreatedId = 1,
-                            UpdatedDate = new DateTime(2024, 10, 3, 16, 39, 29, 201, DateTimeKind.Utc).AddTicks(9166),
+                            UpdatedDate = new DateTime(2024, 10, 13, 14, 34, 52, 915, DateTimeKind.Utc).AddTicks(8269),
                             UpdatedId = 1,
                             Value = "Bathroom"
                         });
@@ -501,7 +501,8 @@ namespace FS.DataAccessLayer.Migrations
                 {
                     b.HasOne("FS.Entity.Products.Product", null)
                         .WithMany("UploadedFiles")
-                        .HasForeignKey("ProductId");
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade);
 
                     b.HasOne("FS.Entity.Accounts.User", null)
                         .WithMany("UploadedFiles")

@@ -42,15 +42,36 @@ namespace FS.BusinessLogicLayer.Concrete
             productEntity.UploadedFiles = uploadedFilesEntity;
 
             await _productRepository.AddAsync(productEntity);
+            try
+            {
+                await _productRepository.SaveChangesAsync();
+            }
+            catch (Exception ex)
+            {
+                var e = ex;
+            }
             await _productRepository.SaveChangesAsync();
-            return new ResponseResult(FS.CoreLayer.Enums.ResponseType.SuccessResult,"Product was added succesfully");
+            return new ResponseResult(FS.CoreLayer.Enums.ResponseType.SuccessResult, "Product was added succesfully");
         }
 
         public async Task<IResponseDataResult<IEnumerable<ProductViewDto>>> GetProductsAsync()
         {
-            var product = await _productRepository.GetAllAsync();
+            var product = await _productRepository.GetProductWithDetailAsync();
             var productView = _mapper.Map<IEnumerable<ProductViewDto>>(product);
             return new ResponseDataResult<IEnumerable<ProductViewDto>>(productView);
+        }
+
+        public async Task<IResponseDataResult<bool>> RemoveAsync(int id)
+        {
+            var product = await _productRepository.GetByIdAsync(id);
+            if (product is null)
+            {
+                return new ResponseDataResult<bool>(ResponseType.NotFound, "Product not found to delete");
+            }
+
+            _productRepository.Remove(product);
+            await _productRepository.SaveChangesAsync();
+            return new ResponseDataResult<bool>(ResponseType.SuccessResult,"Succesfully deleted!");
         }
     }
 }

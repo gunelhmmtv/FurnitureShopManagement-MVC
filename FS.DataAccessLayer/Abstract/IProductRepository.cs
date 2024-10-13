@@ -9,5 +9,7 @@ namespace FS.DataAccessLayer.Abstract
 {
     public interface IProductRepository : IGenericRepository<Product>
     {
+        Task<IEnumerable<Product>> GetProductWithDetailAsync();
+
     }
 }

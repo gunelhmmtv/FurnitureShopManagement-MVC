@@ -18,6 +18,7 @@ namespace FS.UI.Controllers
             _productService = productService;
             _webHostEnvironment = webHostEnvironment;
         }
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var categories = await _categoryService.GetCategoryDictionaryAsync();
@@ -26,7 +27,7 @@ namespace FS.UI.Controllers
             return View(addProductDto);
         }
         [HttpPost]
-        public async Task<IActionResult> AddProduct(AddProductDto productDto,IList<IFormFile> imagesFile)
+        public async Task<IActionResult> AddProduct(AddProductDto productDto, IList<IFormFile> imagesFile)
         {
             if (imagesFile is not null && imagesFile.Count > 0)
             {
@@ -76,7 +77,26 @@ namespace FS.UI.Controllers
                 }
             }
 
-            return Json(new { success = true }) ;
+            return Json(new { success = true });
         }
+        [HttpGet]
+        public async Task<IActionResult> GetProduct()
+        {
+            var result = await _productService.GetProductsAsync();
+            return Json(result.Data);
+        }
+        [HttpGet]
+        public async Task<IActionResult> RemoveProduct(int id)
+        {
+            var result = await _productService.RemoveAsync(id);
+            if (result.ResponseType == CoreLayer.Enums.ResponseType.NotFound)
+            {
+                return Json(new { success = false, message = result.Message });
+            }
+            return Json(new { success = true, message = "Book was deleted successfully" });
+       
+
+        }
+
     }
 }
