@@ -10,3 +10,15 @@ C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FSM.Entity\obj\Debug\net8
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\refint\FS.Entity.dll
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\FS.Entity.pdb
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\ref\FS.Entity.dll
+D:\FurnitureShopManagement\FSM.Entity\bin\Debug\net8.0\FS.Entity.deps.json
+D:\FurnitureShopManagement\FSM.Entity\bin\Debug\net8.0\FS.Entity.dll
+D:\FurnitureShopManagement\FSM.Entity\bin\Debug\net8.0\FS.Entity.pdb
+D:\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\FS.Entity.GeneratedMSBuildEditorConfig.editorconfig
+D:\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\FS.Entity.AssemblyInfoInputs.cache
+D:\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\FS.Entity.AssemblyInfo.cs
+D:\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\FS.Entity.csproj.CoreCompileInputs.cache
+D:\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\FS.Entity.sourcelink.json
+D:\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\FS.Entity.dll
+D:\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\refint\FS.Entity.dll
+D:\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\FS.Entity.pdb
+D:\FurnitureShopManagement\FSM.Entity\obj\Debug\net8.0\ref\FS.Entity.dll

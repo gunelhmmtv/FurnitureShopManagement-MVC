@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.UI\\FS.UI.csproj": {}
+    "D:\\FurnitureShopManagement\\FS.UI\\FS.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj": {
+    "D:\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj",
+        "projectUniqueName": "D:\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj",
         "projectName": "FS.BusinessLogicLayer",
-        "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj",
+        "projectPath": "D:\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj",
         "packagesPath": "C:\\Users\\gunel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.BusinessLogicLayer\\obj\\",
+        "outputPath": "D:\\FurnitureShopManagement\\FS.BusinessLogicLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gunel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj": {
-                "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj"
+              "D:\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj": {
+                "projectPath": "D:\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj"
               },
-              "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj"
+              "D:\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj": {
+                "projectPath": "D:\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj"
               },
-              "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj": {
-                "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj"
+              "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj": {
+                "projectPath": "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj": {
+    "D:\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj",
+        "projectUniqueName": "D:\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj",
         "projectName": "FS.CoreLayer",
-        "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj",
+        "projectPath": "D:\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj",
         "packagesPath": "C:\\Users\\gunel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.CoreLayer\\obj\\",
+        "outputPath": "D:\\FurnitureShopManagement\\FS.CoreLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gunel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,14 +140,14 @@
         }
       }
     },
-    "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj": {
+    "D:\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj",
+        "projectUniqueName": "D:\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj",
         "projectName": "FS.DataAccessLayer",
-        "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj",
+        "projectPath": "D:\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\gunel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.DataAccessLayer\\obj\\",
+        "outputPath": "D:\\FurnitureShopManagement\\FS.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gunel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -164,8 +164,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj": {
-                "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj"
+              "D:\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj": {
+                "projectPath": "D:\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj"
+              },
+              "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj": {
+                "projectPath": "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj"
               }
             }
           }
@@ -221,14 +224,14 @@
         }
       }
     },
-    "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj": {
+    "D:\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj",
+        "projectUniqueName": "D:\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj",
         "projectName": "FS.ExternalServices",
-        "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj",
+        "projectPath": "D:\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj",
         "packagesPath": "C:\\Users\\gunel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.ExternalServices\\obj\\",
+        "outputPath": "D:\\FurnitureShopManagement\\FS.ExternalServices\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gunel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -282,14 +285,14 @@
         }
       }
     },
-    "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.UI\\FS.UI.csproj": {
+    "D:\\FurnitureShopManagement\\FS.UI\\FS.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.UI\\FS.UI.csproj",
+        "projectUniqueName": "D:\\FurnitureShopManagement\\FS.UI\\FS.UI.csproj",
         "projectName": "FS.UI",
-        "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.UI\\FS.UI.csproj",
+        "projectPath": "D:\\FurnitureShopManagement\\FS.UI\\FS.UI.csproj",
         "packagesPath": "C:\\Users\\gunel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.UI\\obj\\",
+        "outputPath": "D:\\FurnitureShopManagement\\FS.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gunel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -306,14 +309,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj": {
-                "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj"
+              "D:\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj": {
+                "projectPath": "D:\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj"
               },
-              "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj"
+              "D:\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj": {
+                "projectPath": "D:\\FurnitureShopManagement\\FS.DataAccessLayer\\FS.DataAccessLayer.csproj"
               },
-              "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj": {
-                "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj"
+              "D:\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj": {
+                "projectPath": "D:\\FurnitureShopManagement\\FS.ExternalServices\\FS.ExternalServices.csproj"
               }
             }
           }
@@ -372,14 +375,14 @@
         }
       }
     },
-    "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj": {
+    "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj",
+        "projectUniqueName": "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj",
         "projectName": "FS.Entity",
-        "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj",
+        "projectPath": "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj",
         "packagesPath": "C:\\Users\\gunel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\obj\\",
+        "outputPath": "D:\\FurnitureShopManagement\\FSM.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gunel\\AppData\\Roaming\\NuGet\\NuGet.Config",

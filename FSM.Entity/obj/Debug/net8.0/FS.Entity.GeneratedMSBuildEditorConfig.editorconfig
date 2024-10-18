@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = FS.Entity
-build_property.ProjectDir = C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FSM.Entity\
+build_property.ProjectDir = D:\FurnitureShopManagement\FSM.Entity\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

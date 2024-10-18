@@ -2,6 +2,7 @@
 using FS.DataAccessLayer.EntityFrameworkCore.Contexts;
 using FS.Entity.Commons;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,8 +49,8 @@ namespace FS.DataAccessLayer.EntityFrameworkCore.Concrete
 
         public bool Update(T entity)
         {
-            _dbContext.Entry(entity).State = EntityState.Modified;
-            return true;
+            var updated = TableEntity.Update(entity);
+            return updated.State == EntityState.Modified;
         }
 
         public async Task SaveChangesAsync()

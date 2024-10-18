@@ -17,7 +17,7 @@ namespace FS.BusinessLogicLayer.Mappers
         public MapProfile() 
         {
             CreateMap<AddProductDto, Product>();
-            
+            CreateMap<UpdateProductDto, Product>();
             CreateMap<CreateUserDto, User>();
             CreateMap<CreateUserDto, UserDetail>();
             CreateMap<UploadedFileDto, UploadedFile>();

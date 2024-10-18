@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FS.CoreLayer\FS.CoreLayer.csproj" />
     <ProjectReference Include="..\FSM.Entity\FS.Entity.csproj" />
   </ItemGroup>
 

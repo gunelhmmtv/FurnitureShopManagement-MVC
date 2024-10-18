@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FS.Entity")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bab1581cbb64d8aa701c4ec567db441c18352ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6224658c06468029cb0675b5c8c6b8601b48338a")]
 [assembly: System.Reflection.AssemblyProductAttribute("FS.Entity")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FS.Entity")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

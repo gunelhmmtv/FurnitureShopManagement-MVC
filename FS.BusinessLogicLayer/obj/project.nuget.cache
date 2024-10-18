@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rzAkEDEabcXZZcFdHNwEqXkhOSxBmShFhGZAJdj2guoHaSOWUjSMi38mDK/rCSwLq9QXPJi7dQmc+Te9rVhQYA==",
+  "dgSpecHash": "hdOkMhRRzXTEaQuBmrB5ws3LkJDM2hbm/hXQa95Wvnm1wtAoR2ot9C8jew89ue9Xms437YMASg6T3KAh8b98Lg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj",
+  "projectFilePath": "D:\\FurnitureShopManagement\\FS.BusinessLogicLayer\\FS.BusinessLogicLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gunel\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\gunel\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

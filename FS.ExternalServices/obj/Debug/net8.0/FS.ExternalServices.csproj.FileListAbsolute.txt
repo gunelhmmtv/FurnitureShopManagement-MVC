@@ -11,3 +11,16 @@ C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\D
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\refint\FS.ExternalServices.dll
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.pdb
 C:\Users\gunel\Desktop\Gmentor\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\ref\FS.ExternalServices.dll
+D:\FurnitureShopManagement\FS.ExternalServices\bin\Debug\net8.0\FS.ExternalServices.deps.json
+D:\FurnitureShopManagement\FS.ExternalServices\bin\Debug\net8.0\FS.ExternalServices.dll
+D:\FurnitureShopManagement\FS.ExternalServices\bin\Debug\net8.0\FS.ExternalServices.pdb
+D:\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.csproj.AssemblyReference.cache
+D:\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.AssemblyInfoInputs.cache
+D:\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.AssemblyInfo.cs
+D:\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.csproj.CoreCompileInputs.cache
+D:\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.sourcelink.json
+D:\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.dll
+D:\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\refint\FS.ExternalServices.dll
+D:\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\FS.ExternalServices.pdb
+D:\FurnitureShopManagement\FS.ExternalServices\obj\Debug\net8.0\ref\FS.ExternalServices.dll

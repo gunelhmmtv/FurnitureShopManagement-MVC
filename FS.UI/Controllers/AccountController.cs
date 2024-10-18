@@ -2,7 +2,10 @@
 using FS.BusinessLogicLayer.Dtos;
 using FS.CoreLayer.Helpers;
 using FS.ExternalServices.Interfaces;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace FS.UI.Controllers
 {
@@ -12,7 +15,7 @@ namespace FS.UI.Controllers
         private readonly IUserService _userService;
         private readonly IEmailService _emailService;
 
-        public AccountController(IUserService userService,IEmailService emailService)
+        public AccountController(IUserService userService, IEmailService emailService)
         {
             _userService = userService;
             _emailService = emailService;

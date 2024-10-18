@@ -11,6 +11,6 @@ namespace FS.BusinessLogicLayer.Abstract
     public interface IUserService
     {
         Task<IResponseDataResult<RegisterUserDto>> CreateUserAsync(CreateUserDto userDto);
-   
+
     }
 }

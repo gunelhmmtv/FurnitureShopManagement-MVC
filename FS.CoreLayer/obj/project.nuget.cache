@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IIB/g1DoxnkizIL4h6fCeV0KjahjMofY5LDiJwkEB7na3pJh5FT4sUWFGmZdq2Y9CGy84sIy0A12dlX7njNvAA==",
+  "dgSpecHash": "uWOKuNIJ5HcJeXbdH3hEiToi6LnhVe+41xp7hziOoI9wKTTVvvz8fDxxqR5EexXCcYPXWTn43iQoT+AUY5LG9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj",
+  "projectFilePath": "D:\\FurnitureShopManagement\\FS.CoreLayer\\FS.CoreLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gunel\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512"
   ],

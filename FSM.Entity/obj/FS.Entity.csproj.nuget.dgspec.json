@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj": {}
+    "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj": {
+    "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj",
+        "projectUniqueName": "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj",
         "projectName": "FS.Entity",
-        "projectPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj",
+        "projectPath": "D:\\FurnitureShopManagement\\FSM.Entity\\FS.Entity.csproj",
         "packagesPath": "C:\\Users\\gunel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gunel\\Desktop\\Gmentor\\FurnitureShopManagement\\FSM.Entity\\obj\\",
+        "outputPath": "D:\\FurnitureShopManagement\\FSM.Entity\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gunel\\AppData\\Roaming\\NuGet\\NuGet.Config",

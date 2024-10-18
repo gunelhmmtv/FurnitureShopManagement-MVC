@@ -9,5 +9,6 @@ namespace FS.DataAccessLayer.Abstract
 {
     public interface IUserRepository : IGenericRepository<User>
     {
+        Task<User> GetSigninUserWithDetailAsync(string email);
     }
 }

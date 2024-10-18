@@ -17,6 +17,7 @@
     <link href="~/AdminTemplates/assets/css/icons.min.css" rel="stylesheet" type="text/css" />
     <!-- App Css-->
     <link href="~/AdminTemplates/assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+    <link href="~/AdminTemplates/assets/libs/sweetalert2/sweetalert2.min.css" rel="stylesheet" />
 
 </head>
 
@@ -83,7 +84,7 @@
                     data: JSON.stringify(model),
                     success: function (response) {
                         if (response.success) {
-                            console.log(response)
+                            window.location.href = `/product/index`
                         } else {
                             $("div.text-danger").text("");
                             $.each(response.errors, function (key, messages) {

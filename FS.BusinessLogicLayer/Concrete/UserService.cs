@@ -30,7 +30,7 @@ namespace FS.BusinessLogicLayer.Concrete
         public UserService(IUserRepository userRepository,
                            IUserDetailRepository userDetailRepository,
                            IValidator<CreateUserDto> createUserDtoValidator,
-                           IMapper mapper)
+                           IMapper mapper  )
         {
             _userRepository = userRepository;
             _userDetailRepository = userDetailRepository;
@@ -40,8 +40,8 @@ namespace FS.BusinessLogicLayer.Concrete
 
         public async Task<IResponseDataResult<RegisterUserDto>> CreateUserAsync(CreateUserDto userDto)
         {
-           var validationResult = await _createUserDtoValidator.ValidateAsync(userDto);
-           if(validationResult.IsValid is false)
+            var validationResult = await _createUserDtoValidator.ValidateAsync(userDto);
+            if (validationResult.IsValid is false)
             {
                 return new ResponseDataResult<RegisterUserDto>(validationResult.ToResponseValidationResults());
             }
@@ -49,7 +49,7 @@ namespace FS.BusinessLogicLayer.Concrete
                  .GetWhereAsync(x => x.Email == userDto.Email)
                  .Any();
 
-            if(user is true)
+            if (user is true)
             {
                 return new ResponseDataResult<RegisterUserDto>(new List<ResponseValidationResult>
                 {
@@ -62,7 +62,7 @@ namespace FS.BusinessLogicLayer.Concrete
             }
 
             var userEntity = _mapper.Map<User>(userDto);
-            userEntity.UserDetail=_mapper.Map<UserDetail>(userDto);
+            userEntity.UserDetail = _mapper.Map<UserDetail>(userDto);
 
 
             byte[] passwordHash;
@@ -89,18 +89,19 @@ namespace FS.BusinessLogicLayer.Concrete
             catch (Exception E)
             {
                 var EM = E;
-                                
+
             }
-            return new ResponseDataResult<RegisterUserDto>( new RegisterUserDto()
+            return new ResponseDataResult<RegisterUserDto>(new RegisterUserDto()
             {
                 Id = userEntity.Id,
-                Email=userEntity.Email,
-                ConfirmCode=userEntity.UserDetail.ConfirmCode,
-                FirstName=userEntity.UserDetail.FirstName,
-                LastName=userEntity.UserDetail.LastName,
+                Email = userEntity.Email,
+                ConfirmCode = userEntity.UserDetail.ConfirmCode,
+                FirstName = userEntity.UserDetail.FirstName,
+                LastName = userEntity.UserDetail.LastName,
 
             });
         }
+      
     }
 }
 

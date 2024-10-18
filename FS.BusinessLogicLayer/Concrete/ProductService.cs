@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Azure.Core;
 using FluentValidation;
 using FS.BusinessLogicLayer.Abstract;
 using FS.BusinessLogicLayer.Dtos;
@@ -73,5 +74,8 @@ namespace FS.BusinessLogicLayer.Concrete
             await _productRepository.SaveChangesAsync();
             return new ResponseDataResult<bool>(ResponseType.SuccessResult,"Succesfully deleted!");
         }
+
+        
+
     }
 }

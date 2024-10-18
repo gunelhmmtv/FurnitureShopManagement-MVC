@@ -93,10 +93,12 @@ namespace FS.UI.Controllers
             {
                 return Json(new { success = false, message = result.Message });
             }
-            return Json(new { success = true, message = "Book was deleted successfully" });
-       
+            return Json(new { success = true, message = "Product was deleted successfully" });
+
 
         }
 
+
     }
 }
+

@@ -914,6 +914,7 @@
       },
       "FS.DataAccessLayer/1.0.0": {
         "dependencies": {
+          "FS.CoreLayer": "1.0.0",
           "FS.Entity": "1.0.0",
           "Microsoft.EntityFrameworkCore": "8.0.8",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.8"
